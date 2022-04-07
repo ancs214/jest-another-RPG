@@ -1,8 +1,8 @@
 const Potion = require('../lib/Potion');
+const Player = require('../lib/Player');
+
 //substitute mock data when running Potion function
 jest.mock('../lib/Potion.js');
-
-const Player = require('../lib/Player');
 
 test ('creates a player object', () => {
     const player = new Player('Dave');
